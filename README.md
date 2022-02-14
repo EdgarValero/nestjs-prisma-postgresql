@@ -2,6 +2,14 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
 
+<p align="center">
+  <a href="http://prisma.io/" target="blank"><img src="https://cdn.worldvectorlogo.com/logos/prisma-2.svg" width="320" alt="Nest Logo" /></a>
+</p>
+
+<p align="center">
+  <a href="https://www.postgresql.org/" target="blank"><img src="https://blog.moon.cat/wp-content/uploads/2020/07/postgresql-logo.png" width="320" alt="Nest Logo" /></a>
+</p>
+
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 

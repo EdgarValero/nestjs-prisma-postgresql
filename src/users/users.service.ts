@@ -8,14 +8,14 @@ export class UsersService {
 
   async find(): Promise<User[]> {
     return await this.prismaService.user.findMany({
-      include: { role: true },
+      include: { role: true, posts: true, _count: true },
     });
   }
 
   async findOne(id: number): Promise<User> {
     return await this.prismaService.user.findUnique({
       where: { id },
-      include: { role: true },
+      include: { role: true, posts: true },
     });
   }
 

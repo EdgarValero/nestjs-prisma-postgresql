@@ -8,10 +8,11 @@ import { PrismaService } from './prisma.service';
 import { RolesController } from './roles/roles.controller';
 import { RolesModule } from './roles/roles.module';
 import { PostsModule } from './posts/posts.module';
+import { RolesService } from './roles/roles.service';
 
 @Module({
   imports: [UsersModule, RolesModule, PostsModule],
   controllers: [AppController, UsersController, RolesController],
-  providers: [AppService, UsersService, PrismaService],
+  providers: [AppService, UsersService, RolesService, PrismaService],
 })
 export class AppModule {}
